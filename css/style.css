@@ -227,6 +227,7 @@
   transition: 0.3s; }
 
 footer {
+  background-image: url("../img/footer_back.jpg");
   background-position: center bottom;
   background-size: cover;
   padding: 105px 0 99px; }
