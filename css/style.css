@@ -124,4 +124,106 @@
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%; }
 
+.container_team .team {
+  font-size: 42px;
+  color: #4e525d;
+  margin-bottom: 140px; }
+.container_team .image_user {
+  width: 200px;
+  height: 200px;
+  background-color: #eeeef0;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative; }
+  .container_team .image_user img {
+    display: block;
+    width: 100%; }
+.container_team h2 {
+  font-size: 22px;
+  color: #4e525d;
+  margin-bottom: 14px; }
+.container_team h4 {
+  font-size: 14px;
+  color: #4e525d;
+  margin-bottom: 35px; }
+.container_team p {
+  font-size: 14px;
+  color: #4e525d;
+  line-height: 25px;
+  margin-bottom: 110px; }
+
+.image_user:after {
+  content: "+";
+  color: red;
+  font-size: 100px;
+  display: inline-block;
+  position: absolute;
+  left: 73px;
+  top: -100px;
+  transition: 0.4s; }
+
+.image_user:hover:after {
+  top: 35px;
+  transform: rotate(360deg); }
+
+.range {
+  background-color: #f1f1f1;
+  padding: 119px 0 100px; }
+
+.range ul {
+  list-style: none;
+  text-align: center; }
+
+.range div:nth-last-child(3) h3, .range div:nth-last-child(2) h3, .range div:nth-last-child(1) h3 {
+  font-size: 26px;
+  color: white;
+  background-color: #485460;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  max-width: 368px;
+  width: 100%;
+  padding: 27px 0;
+  margin-bottom: 0;
+  margin-top: 0; }
+.range div:nth-last-child(3) h4, .range div:nth-last-child(2) h4, .range div:nth-last-child(1) h4 {
+  font-size: 20px;
+  color: #485460;
+  max-width: 368px;
+  width: 100%;
+  border: solid 1px #ecf0f1;
+  background-color: #f8f9fb;
+  padding: 28px 0;
+  margin-top: 0;
+  margin-bottom: 0; }
+.range div:nth-last-child(3) a, .range div:nth-last-child(2) a, .range div:nth-last-child(1) a {
+  background-color: #788492;
+  text-decoration: none;
+  padding: 12px 51px;
+  color: white;
+  border-radius: 5%; }
+
+.range li:nth-child(n+3):nth-child(-n+8) {
+  color: #8c9299;
+  max-width: 368px;
+  width: 100%;
+  background-color: white;
+  padding: 19px 0;
+  border: solid 1px #ecf0f1;
+  font-size: 14px; }
+
+.range li:nth-last-child(1) {
+  background-color: #f8f9fb;
+  padding: 29px 0;
+  border: solid 1px #ecf0f1;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px; }
+
+.range div ul:hover h3 {
+  background-color: #49cbcd;
+  transition: 0.3s; }
+.range div ul:hover a {
+  background-color: #49cbcd;
+  transition: 0.3s; }
+
 /*# sourceMappingURL=style.css.map */
