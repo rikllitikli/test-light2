@@ -116,6 +116,9 @@
 .owl-nav .owl-prev {
   position: absolute;
   left: 30px;
+  @include max-screen(411px){
+    left: 10px;
+  }
 }
 
 .owl-nav .owl-prev:before {
@@ -126,15 +129,15 @@
   color: #49cbcd;
   background-color: #fefefe;
   padding: 13px 18px;
-  border-top-left-radius: 100%;
-  border-top-right-radius: 100%;
-  border-bottom-right-radius: 100%;
-  border-bottom-left-radius: 100%;
+  border-radius: 50%;
 }
 
 .owl-nav .owl-next {
   position: absolute;
   right: 30px;
+  @include max-screen(411px){
+    right: 10px;
+  }
 }
 
 .owl-nav .owl-next:before {
@@ -145,10 +148,7 @@
   color: #49cbcd;
   background-color: #fefefe;
   padding: 13px 18px;
-  border-top-left-radius: 100%;
-  border-top-right-radius: 100%;
-  border-bottom-right-radius: 100%;
-  border-bottom-left-radius: 100%;
+  border-radius: 50%;
 }
 
 .container_team {
