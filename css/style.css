@@ -138,7 +138,9 @@
   position: relative; }
   .container_team .image_user img {
     display: block;
-    width: 100%; }
+    width: 100%;
+    position: relative;
+    bottom: 60px; }
 .container_team h2 {
   font-size: 22px;
   color: #4e525d;
